@@ -1,0 +1,57 @@
+.register-container {
+    max-width: 420px;
+    margin: 100px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #fafafa, #f3f3f3);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .register-container h2 {
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .register-container select,
+  .register-container input {
+    width: 90%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    font-size: 15px;
+  }
+  .register-container select{
+    width: 360px;
+  }
+  
+  .register-container input:focus,
+  .register-container select:focus {
+    border-color: #43b97f;
+    outline: none;
+    box-shadow: 0 0 6px rgba(67, 185, 127, 0.3);
+  }
+  
+  .register-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #43b97f;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-container button:hover {
+    background-color: #369f6b;
+  }
+  .error-message{
+    color:black;
+  }
+  

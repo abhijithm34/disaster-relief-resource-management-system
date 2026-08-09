@@ -1,0 +1,28 @@
+.resources {
+    padding: 20px;
+  }
+  
+  .resources-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+  
+  .location-search {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.7rem;
+    margin: 0 auto 1.5rem auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .no-resources {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+  }
+  

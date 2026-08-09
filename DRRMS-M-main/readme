@@ -1,0 +1,20 @@
+clone the project from github and follow the following steps before running: 
+
+S-1:
+Install the following dependencies before running the server:
+1)express
+2)cors   
+3)dotenv
+4)mysql2  //npm install express cors dotenv mysql2
+
+S-2:
+1) Install mysql2 in your localmachine by watching some youtube videos, preferrbly https://youtu.be/hiS_mWZmmI0?si=G_QD_q7wNRxS8g3K
+2) After installing , in  mysql the default username is root and you have to set the password alone;
+3) After setting the password and connected to the server, open the drrms_db_queries.sql file in mysql workbench and run it;
+4) After running the queries, you will see the database created with the required tables and data;
+5) After that open the project DRRMS M folder in vs code, THen verify that you compeleted S-1;
+6) Then open .env file and modify the password with the password you have set;
+7) Then open the server.js file and run it in the terminal by typing node server.js;
+8) Then you will see the server running in the terminal with the port number 3000;
+9) Then open the postman and create a new request by selecting POST method or just open browser and type the specfic url to get the details of locations(just verifying like everything works fine);
+

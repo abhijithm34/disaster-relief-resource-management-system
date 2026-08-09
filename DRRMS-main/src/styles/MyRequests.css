@@ -1,0 +1,47 @@
+.register-container {
+    max-width: 420px;
+    margin: 80px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #fafafa, #f3f3f3);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .register-container h2 {
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .request-list {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+  }
+  
+  .request-item {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .request-item strong {
+    color: #43b97f;
+  }
+  
+  .request-item + .request-item {
+    margin-top: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,82 @@
+/* AffectedDashboard.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f8fb;
+  }
+  
+  .dashboard-container {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .dashboard-title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+  }
+  
+  .dashboard-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .dashboard-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 260px;
+    max-width: 90%;
+    text-align: center;
+    flex: 0 1 auto;
+  }
+  
+  .dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-icon {
+    font-size: 2.5rem;
+    color: #3498db;
+    margin-bottom: 1rem;
+  }
+  
+  .dashboard-card h3 {
+    margin: 0.5rem 0;
+    font-size: 1.25rem;
+    color: #2c3e50;
+  }
+  
+  .dashboard-card p {
+    color: #7f8c8d;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+  
+  .dashboard-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background-color 0.3s;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #2980b9;
+  }
+  .dashboard-description {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0.5rem 0 1rem;
+  }
+  

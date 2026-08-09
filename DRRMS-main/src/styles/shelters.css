@@ -1,0 +1,65 @@
+.volunteer-dashboard {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #fafafa, #f3f3f3);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+  .location-search {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    margin: 0 auto 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    display: block;
+  }
+  
+  .no-shelters-message {
+    color: #ff5e5e;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .shelter-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .shelter-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    width: 280px;
+    transition: transform 0.2s ease;
+  }
+  
+  .shelter-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .shelter-card p {
+    margin: 6px 0;
+    color: #333;
+    font-size: 15px;
+  }
+  
+  .shelter-card b {
+    color: #43b97f;
+  }
+  

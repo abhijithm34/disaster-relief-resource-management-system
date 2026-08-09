@@ -1,0 +1,83 @@
+.profile-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f7f7f7;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .profile-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-form label {
+    margin-bottom: 15px;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .profile-form input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    color:black;
+    margin-top: 5px;
+  }
+  
+  .profile-form input:disabled {
+    background-color: #eaeaea;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn-group button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-group button:hover {
+    background-color: #0056b3;
+  }
+  
+  .message {
+    text-align: center;
+    margin-bottom: 15px;
+    color: green;
+    font-weight: 600;
+  }
+
+
+  /* Profile Form Error Styling */
+.profile-form.form-error {
+  border: 2px solid red; /* Add red border to the entire form */
+}
+
+.input-error {
+  border: 1px solid red; /* Add red border to each input field */
+  background-color: #ffe6e6; /* Optional: Light red background to indicate error */
+}
+
+.profile-container .btn-group button {
+  margin-top: 10px;
+}
+
+  

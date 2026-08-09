@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: aliceblue;
+  color: #222;
+}
+
+.app-container {
+  padding: 20px;
+}
