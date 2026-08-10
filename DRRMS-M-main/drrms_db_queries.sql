@@ -28,7 +28,7 @@ CREATE TABLE shelters (
 CREATE TABLE resources (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
-    type ENUM('food', 'water', 'medical', 'clothing', 'other') NOT NULL,
+    type VARCHAR(100) NOT NULL,
     quantity INT,
     unit VARCHAR(20),
     location_id INT,
